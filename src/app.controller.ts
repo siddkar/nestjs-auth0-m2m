@@ -12,6 +12,7 @@ export class AppController {
     @Get('/public')
     @Public()
     publicGetHello(): string {
+        // This controller will demostrate an example of Public route
         return this.appService.getHello();
     }
 }
