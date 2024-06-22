@@ -1,7 +1,7 @@
 import { Controller, Delete, Get, HttpCode, HttpStatus, Param, Patch, Post, Req, Res, UseGuards } from '@nestjs/common';
 import { Response } from 'express';
 import { Permissions } from 'src/auth/decorators/permissions/permissions.decorator';
-import { PermissionsGuard } from 'src/auth/guards/permission/permissions.guard';
+import { PermissionsGuard } from 'src/auth/guards/permissions/permissions.guard';
 import { TokenAuthGuard } from 'src/auth/guards/token-auth/token-auth.guard';
 import { Permission } from 'src/utils/enums/permissions.enum';
 

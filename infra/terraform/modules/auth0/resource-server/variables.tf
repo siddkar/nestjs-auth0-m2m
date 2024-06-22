@@ -22,10 +22,3 @@ variable "permissions_json_file_path" {
   type        = string
   description = "Permissions master set JSON file path. Contains resource server scopes."
 }
-
-# Stores Clients config JSON file path, i.e., name and allowed_permisions.
-variable "clients_config_json_file_path" {
-  type        = string
-  description = "Clients config JSON file path, i.e., name and allowed_permisions. Contains the m2m clients (Applications) configuration"
-}
-

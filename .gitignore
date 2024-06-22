@@ -39,3 +39,9 @@ dist
 
 # ignore yarn.lock
 yarn.lock
+
+# terraform
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+.terraform

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "PetAdminPortal-Dev-M2M",
+        "description": "",
+        "allowed_permissions": ["admin:pet"]
+    },
+    {
+        "name": "PetStorePortal-Dev-M2M",
+        "description": "",
+        "allowed_permissions": ["read:pet"]
+    },
+    {
+        "name": "PetOwnerPortal-Dev-M2M",
+        "description": "",
+        "allowed_permissions": ["read:pet", "create:pet", "update:pet"]
+    }
+]

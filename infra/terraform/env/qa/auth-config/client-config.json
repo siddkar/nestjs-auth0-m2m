@@ -1,0 +1,17 @@
+[
+    {
+        "name": "PetAdminPortal-Qa-M2M",
+        "description": "",
+        "allowed_permissions": ["admin:pet"]
+    },
+    {
+        "name": "PetStorePortal-Qa-M2M",
+        "description": "",
+        "allowed_permissions": ["read:pet"]
+    },
+    {
+        "name": "PetOwnerPortal-Qa-M2M",
+        "description": "",
+        "allowed_permissions": ["read:pet", "create:pet", "update:pet"]
+    }
+]

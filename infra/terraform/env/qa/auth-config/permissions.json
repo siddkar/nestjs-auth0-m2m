@@ -1,0 +1,22 @@
+[
+    {
+        "scope": "read:pet",
+        "description": "Read Pets"
+    },
+    {
+        "scope": "create:pet",
+        "description": "Create Pets"
+    },
+    {
+        "scope": "update:pet",
+        "description": "Update Pets"
+    },
+    {
+        "scope": "delete:pet",
+        "description": "Delete Pets"
+    },
+    {
+        "scope": "admin:pet",
+        "description": "Admin Pets"
+    }
+]
