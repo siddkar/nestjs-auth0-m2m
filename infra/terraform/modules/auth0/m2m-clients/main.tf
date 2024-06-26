@@ -18,6 +18,8 @@ resource "auth0_client" "m2m_clients" {
   description = each.value.description
   app_type    = "non_interactive"
 
+  grant_types = ["client_credentials"]
+
   jwt_configuration {
     alg = "RS256"
   }
